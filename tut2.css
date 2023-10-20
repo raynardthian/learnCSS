@@ -1,7 +1,14 @@
+/*id*/
 #welcome{
     background-color: green;
 }
 
+/*Class*/
 .bye{
+    color: red;
+}
+
+/*Everything*/
+*{
     color: red;
 }
