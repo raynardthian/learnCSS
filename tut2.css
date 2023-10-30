@@ -1,14 +1,24 @@
 /*id*/
 #welcome{
     background-color: green;
+    margin-left: 50%;
 }
 
 /*Class*/
 .bye{
     color: red;
+    /* Top, Right, Bottom, Left Margins */
+    margin: 20px 20px 20px 20px ;
+    /* Or which represents everything*/
+    margin: 20px;
+
+}
+
+b{
+    margin: inherit;
 }
 
 /*Everything*/
-*{
+/* *{
     color: red;
-}
+} */
