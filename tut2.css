@@ -13,12 +13,17 @@
     margin: 20px;
 
 }
+/*Everything*/
+/* *{
+    color: red;
+} */
 
 b{
     margin: inherit;
 }
 
-/*Everything*/
-/* *{
-    color: red;
-} */
+#border{
+    border: 3px solid purple;
+    border-radius: 10px;
+}
+
