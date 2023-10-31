@@ -37,3 +37,12 @@ b{
     outline: solid;
     outline-offset: 10px;
 }
+
+#text {
+    text-align: justify;
+    vertical-align: top;
+    text-decoration-line: underline overline;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 1px;
+    text-indent: 10px;
+}
