@@ -28,6 +28,12 @@ b{
 }
 
 #height{
-    height: 90px;
+    height: 20px;
     width: 100%;
+    background-color: purple;
+}
+#outline{
+    border: 2px dotted;
+    outline: solid;
+    outline-offset: 10px;
 }
