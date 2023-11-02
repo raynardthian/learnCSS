@@ -121,3 +121,6 @@ h1 ~ b{
 .dropdown:hover .dropdown-button{
     background-color: grey;
 }
+div[class = "test"]{
+    color: red;
+}
