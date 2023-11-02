@@ -52,3 +52,10 @@ b{
     /* 1 em = 16px */
     font-size: 1em;
 }
+.fonts{
+    /* if Agbalumo font fail to load, it will fall back onto sans-serif font */
+   font-family: Agbalumo, sans-serif;
+}
+#icons{
+
+}
