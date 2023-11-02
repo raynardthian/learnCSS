@@ -46,3 +46,9 @@ b{
     text-decoration-thickness: 1px;
     text-indent: 10px;
 }
+#fonts{
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-weight: bold;
+    /* 1 em = 16px */
+    font-size: 1em;
+}
