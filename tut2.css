@@ -87,4 +87,37 @@ h1 + b {
 h1 ~ b{
     color: purple;
 }
-
+.dropdown-button{
+    background-color: blue;
+    color:white;
+    padding: 13px;
+    font-size: 16px;
+    font-family: Agbalumo, sans-serif;
+    border:none;
+    cursor: pointer;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: skyblue;
+    min-width: 150px;
+}
+.dropdown-menu a{
+    color: black;
+    padding: 11px 15px;
+    text-decoration: none;
+    display: black;
+}
+.dropdown-menu a:hover{
+    background-color: white;
+}
+.dropdown:hover .dropdown-menu{
+    display:block;
+}
+.dropdown:hover .dropdown-button{
+    background-color: grey;
+}
