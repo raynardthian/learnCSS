@@ -57,6 +57,8 @@ b{
    font-family: Agbalumo, sans-serif;
 }
 table,td,th{
+    display: none;
+    visibility: hidden;
     border: 2px solid;
     width: 20%;
     border-collapse: collapse;
