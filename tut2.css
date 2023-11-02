@@ -70,3 +70,21 @@ th,td{
 tr:hover{
     background-color: aqua;
 }
+/* all the b's inside the h1 */
+/* h1 b{
+    color: red;
+} */
+
+/* h1 direct children element */
+h1 > b {
+    color: blue;
+}
+/* h1 adjacent to b a.k.a after h1 */
+h1 + b {
+    color: red;
+}
+/* h1 sibilings to b's */
+h1 ~ b{
+    color: purple;
+}
+
