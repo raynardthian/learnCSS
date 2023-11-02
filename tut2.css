@@ -56,6 +56,15 @@ b{
     /* if Agbalumo font fail to load, it will fall back onto sans-serif font */
    font-family: Agbalumo, sans-serif;
 }
-#icons{
-
+table,td,th{
+    border: 2px solid;
+    width: 20%;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 10px;
+    text-align: center;
+}
+tr:hover{
+    background-color: aqua;
 }
